@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Nested Table </h1>
+<table border="10" height="400px" width="70%" align="center" >
+    <thead>
+    <tr>
+<th>Header column 1</th>
+<th>Header column 2</th>
+<th>Header column 3</th>
+<th>Header column 4</th>
+    </tr>
+    </thead>
+<tbody>
+    <tr>
+        <td>Rows 2-Items 1</td>
+        <td>Rows 2-Items 2</td>
+        <td rowspan="2"> Rows 2-Nested Table 1
+            <table border="5">
+                <tr>
+                <td>row 1 header item</td>
+                </tr>
+                <tr>
+                <td>row 2 header item</td>
+                </tr>
+                <tr>
+                <td>row 3 header item</td>
+                </tr>
+            </table>
+        </td>
+        <td>Rows 2-Items 4</td>
+    </tr>
+    <tr>
+    <td>row 3-Nested Table 2
+      <table border="5">
+      <tr>
+        <td>Rows 1 Header Items </td>
+      </tr>
+      <tr>
+        <td>Rows 2 Header Items </td>
+      </tr>
+      </table>
+    </td>
+   <td>Rows 3-Items 2</td>
+   <td rowspan="2"> Rows 3- Items 1 </td>
+   </tr>
+   <tr>
+   <td>Rows 4-Items 1</td>
+   <td>Rows 4-Items 2</td>
+   <td>Rows 4-Items 3</td>
+    </tr>
+</tbody> 
+<tfoot >
+    <td colspan="4">Rows 5- last row of nested table </td>
+</tfoot>   
+    </table>
+</body>
+</html>
