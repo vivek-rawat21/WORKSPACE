@@ -2,8 +2,8 @@ body{
     margin:0;
 }
 .div1{
-    height: 200px;
-   width: 200px;
+    height: 10px;
+   width: 10px;
    background-color: green;
    border-radius: 50%;
    position: absolute;
@@ -13,8 +13,8 @@ body{
 
 /*animation property*/
 animation-name:batch3;
-animation-duration: 10s;
-animation-delay: 2s;
+animation-duration: 1s;
+animation-delay: ;
 animation-iteration-count: infinite;
 }
 @keyframes batch3{
@@ -24,23 +24,23 @@ animation-iteration-count: infinite;
 
     }
     25%{
-        left: 400px;
+        left: 200px;
         top: 0;
         background-image: linear-gradient(purple,aqua);
     }
     50%{
-        left: 400px;
-        top: 400px;
+        left: 200px;
+        top: 200px;
         background-image: linear-gradient(red, blue);
     }
     75%{
-        left: 0%;
-        top: 400px;
+        left: 400px;
+        top: 200px;
         background-image: linear-gradient(purple,aqua);
     }
     100%{
-        left: 0%;
-        top: 0%;
+        left: 400;
+        top: 400;
         background-image: linear-gradient(red, blue);
     }
 }
